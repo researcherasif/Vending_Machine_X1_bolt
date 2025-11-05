@@ -22,14 +22,17 @@ export default function Hero({ onSpecsClick }: HeroProps) {
         <div className="text-center space-y-12">
           <div className="space-y-4">
             <p className="text-blue-600 font-medium tracking-wide">INTRODUCING SOHUB VM-X1</p>
-            <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 leading-tight tracking-tight">
+            <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight">
               Revolutionizing Business Operations, One Vending Machine at a Time
             </h1>
           </div>
 
           <div className="relative flex justify-center py-12">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
               <div className="w-96 h-96 bg-gradient-to-br from-blue-100 to-blue-50 rounded-full blur-3xl opacity-40"></div>
+              <div className="absolute inset-0 opacity-20">
+                <div className="flow-animation"></div>
+              </div>
             </div>
 
             <div className="relative z-20 h-96 flex items-center justify-center">

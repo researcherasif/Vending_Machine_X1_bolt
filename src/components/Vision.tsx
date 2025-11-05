@@ -1,8 +1,8 @@
 export default function Vision() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center space-y-6 mb-20">
+        <div className="max-w-3xl mx-auto text-center space-y-6 mb-12">
           <h2 className="text-4xl lg:text-5xl font-light text-gray-900 tracking-tight">
             Our Vision: Normalizing Vending Machines for a{' '}
             <span className="font-normal">Smarter Bangladesh</span>

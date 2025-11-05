@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <section className="py-32 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_rgba(59,130,246,0.1),transparent_50%)]"></div>
 
       <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">

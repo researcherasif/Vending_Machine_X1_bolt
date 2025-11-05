@@ -1,0 +1,13 @@
+@echo off
+echo Restarting Vite server...
+cd /d "e:\### WORK ###\@ (SOHUB) Solution Hub Technologies\SVM_landing 2.0\SVM_landing 2.0_bolt"
+
+echo Killing any existing processes...
+taskkill /f /im node.exe 2>nul
+
+echo Clearing cache...
+if exist node_modules\.vite rmdir /s /q node_modules\.vite
+
+echo Starting fresh server...
+npx vite --force --host
+pause

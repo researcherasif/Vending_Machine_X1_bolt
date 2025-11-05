@@ -22,9 +22,9 @@ const revenueStreams = [
 
 export default function Pricing() {
   return (
-    <section className="py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-20">
+        <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-light text-gray-900 tracking-tight mb-6">
             A <span className="font-normal">Cost-Effective Solution</span> for Your Business
           </h2>
