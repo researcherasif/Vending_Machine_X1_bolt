@@ -42,7 +42,7 @@ const benefits = [
 
 export default function HowItWorks() {
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-light text-gray-900 tracking-tight mb-6">
@@ -94,8 +94,8 @@ export default function HowItWorks() {
               <table className="w-full">
                 <thead>
                   <tr className="bg-gray-900 text-white">
-                    <th className="px-6 py-4 text-left font-medium text-sm">Specification</th>
-                    <th className="px-6 py-4 text-left font-medium text-sm">Details</th>
+                    <th className="px-3 py-2 text-left font-medium text-xs">Specification</th>
+                    <th className="px-3 py-2 text-left font-medium text-xs">Details</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -106,8 +106,8 @@ export default function HowItWorks() {
                         index % 2 === 0 ? 'bg-gray-50' : 'bg-white'
                       }`}
                     >
-                      <td className="px-6 py-4 font-medium text-gray-900">{spec.label}</td>
-                      <td className="px-6 py-4 text-gray-700">{spec.value}</td>
+                      <td className="px-3 py-2 font-medium text-gray-900 text-sm">{spec.label}</td>
+                      <td className="px-3 py-2 text-gray-700 text-sm">{spec.value}</td>
                     </tr>
                   ))}
                 </tbody>

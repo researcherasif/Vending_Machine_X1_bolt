@@ -58,7 +58,10 @@ export default function Pricing() {
                 ))}
               </div>
 
-              <button className="w-full bg-gray-900 text-white py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-all duration-300">
+              <button 
+                onClick={() => window.open('mailto:hello@sohub.com.bd?subject=SOHUB VM-X1 Pricing Inquiry&body=Hi, I am interested in learning more about the SOHUB VM-X1 vending machine. Please provide more details about pricing and availability.', '_self')}
+                className="w-full bg-gray-900 text-white py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-all duration-300"
+              >
                 Get in Touch to Learn More
               </button>
             </div>
