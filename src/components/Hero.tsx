@@ -22,12 +22,12 @@ export default function Hero({ onSpecsClick }: HeroProps) {
         <div className="text-center space-y-12">
           <div className="space-y-4">
             <p className="text-blue-600 font-medium tracking-wide text-sm sm:text-base">INTRODUCING SOHUB VM-X1</p>
-            <h1 className="text-2xl sm:text-3xl lg:text-5xl font-light text-gray-900 dark:text-white leading-tight tracking-tight">
+            <h1 className="text-[28px] sm:text-[36px] md:text-[42px] lg:text-[51.86px] font-semibold leading-tight tracking-tight mb-4 sm:mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent pb-2 apple-gradient-text" style={{ translate: 'none', opacity: 1 }}>
               Revolutionizing Business Operations, One Vending Machine at a Time
             </h1>
           </div>
 
-          <div className="relative flex justify-center py-12">
+          <div className="relative flex justify-center" style={{ marginTop: 10 }}>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
               <div className="w-96 h-96 bg-gradient-to-br from-blue-100 to-blue-50 rounded-full blur-3xl opacity-40"></div>
               <div className="absolute inset-0 opacity-20">
@@ -35,7 +35,7 @@ export default function Hero({ onSpecsClick }: HeroProps) {
               </div>
             </div>
 
-            <div className="relative z-20 h-64 sm:h-80 lg:h-96 flex items-center justify-center">
+            <div className="relative z-20 h-80 sm:h-96 lg:h-[32rem] flex items-center justify-center">
               <img
                 src="/Adobe Express - file.png"
                 alt="SOHUB VM-X1 Vending Machine"
@@ -44,7 +44,7 @@ export default function Hero({ onSpecsClick }: HeroProps) {
             </div>
           </div>
 
-          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl border border-gray-200 dark:border-gray-700 rounded-3xl px-4 sm:px-8 py-6 sm:py-8 inline-block mx-auto shadow-lg hover:shadow-xl transition-all duration-300">
+          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl border border-gray-200 dark:border-gray-700 rounded-3xl px-4 sm:px-8 py-6 sm:py-8 inline-block mx-auto shadow-lg hover:shadow-xl transition-all duration-300" style={{ marginTop: 10 }}>
             <p className="text-gray-700 dark:text-gray-300 font-light text-base sm:text-lg mb-6">
               <span className="text-blue-600 font-medium">Automated retail innovation.</span>{' '}
               <span className="text-red-500 font-medium">Why are we still thinking traditional?</span>
