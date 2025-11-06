@@ -41,7 +41,7 @@ export default function FAQ() {
 
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      <div className="mx-auto px-6 lg:px-8" style={{maxWidth: '70rem'}}>
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-light text-gray-900 mb-4">
             Frequently Asked <span className="font-normal">Questions</span>

@@ -68,8 +68,8 @@ export default function Pricing() {
           </div>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl p-8">
-              <h3 className="text-2xl font-medium text-gray-900 mb-6">
+            <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl" style={{padding: '.85rem'}}>
+              <h3 className="text-2xl font-medium text-gray-900 mb-5">
                 Multiple Revenue Streams
               </h3>
               <div className="space-y-4">
@@ -79,8 +79,8 @@ export default function Pricing() {
                     className="bg-white rounded-2xl p-5 shadow-sm"
                   >
                     <div className="flex items-start justify-between mb-2">
-                      <h4 className="font-medium text-gray-900">{stream.name}</h4>
-                      <span className="text-green-600 font-medium">{stream.split}</span>
+                      <h4 className="font-medium text-gray-900 text-sm">{stream.name}</h4>
+                      <span className="text-green-600 font-medium text-sm">{stream.split}</span>
                     </div>
                     <p className="text-sm text-gray-600">{stream.earning}</p>
                   </div>
